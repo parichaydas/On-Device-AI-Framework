@@ -1,0 +1,4 @@
+fastapi
+uvicorn[standard]
+pydantic
+# Add qdrant-client or bindings if integrating Qdrant Embedded
