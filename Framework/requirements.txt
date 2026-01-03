@@ -1,0 +1,2 @@
+# No external dependencies required for the demo (pure Python implementation)
+# Add packages like numpy, qdrant-client, or pybind11-based Qdrant Embedded bindings here when integrating.
