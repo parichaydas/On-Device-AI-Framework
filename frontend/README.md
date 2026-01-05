@@ -6,3 +6,4 @@ Suggested structure:
 - src/
 - public/
 - package.json
+---
