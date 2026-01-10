@@ -393,6 +393,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-**Built with ❤️ for offline AI applications**
-
-*Last Updated: January 10, 2026*
