@@ -1,0 +1,53 @@
+# On-Device AI Framework Requirements
+# Python 3.9+ required
+
+# Core Vector Database
+qdrant-client==1.7.3
+
+# Machine Learning & Embeddings
+sentence-transformers==2.3.1
+transformers==4.36.2
+torch==2.1.2
+tokenizers==0.15.0
+
+# Document Processing
+PyPDF2==3.0.1
+python-docx==1.1.0
+beautifulsoup4==4.12.2
+python-multipart==0.0.6
+chardet==5.2.0
+
+# API Framework (for demos)
+fastapi==0.108.0
+uvicorn[standard]==0.25.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Data Processing
+numpy==1.24.4
+pandas==2.1.4
+
+# CLI Tools
+click==8.1.7
+rich==13.7.0
+tqdm==4.66.1
+
+# Utilities
+python-dotenv==1.0.0
+pathlib2==2.3.7
+typing-extensions==4.9.0
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-asyncio==0.21.1
+
+# Development
+black==23.12.1
+flake8==7.0.0
+mypy==1.8.0
+ipython==8.19.0
+
+# Optional: Performance
+# onnxruntime==1.16.3  # For ONNX model support
+# onnx==1.15.0
