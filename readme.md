@@ -91,15 +91,6 @@ for result in results:
 
 ### Complete Documentation
 
-- **[📖 PROJECT_WRITEUP.md](docs/PROJECT_WRITEUP.md)** - Comprehensive 30+ page technical documentation
-  - Executive summary and background
-  - Problem statement and motivation
-  - Technical architecture details
-  - Implementation guide
-  - Use cases and applications
-  - Performance analysis
-  - Security and privacy considerations
-  - Future enhancements
 
 - **[🏗️ ARCHITECTURE.md](docs/ARCHITECTURE.md)** - Detailed architecture and diagrams
   - System architecture overview
@@ -289,28 +280,7 @@ results = search_engine.search_with_rerank(
 )
 ```
 
-## 📊 Performance
 
-### Benchmarks
-
-Tested on AMD Ryzen 9 5900X, 32GB RAM, Ubuntu 22.04:
-
-| Metric | Value |
-|--------|-------|
-| **Indexing Throughput** | 90 docs/sec |
-| **Search Latency (100K docs)** | 21ms (avg) |
-| **Search Latency (1M docs)** | 32ms (avg) |
-| **Memory Usage (100K docs)** | ~835MB total |
-| **Index Size (100K docs, int8)** | 425MB |
-
-### Scalability
-
-| Documents | P50 Latency | P95 Latency | Memory |
-|-----------|-------------|-------------|--------|
-| 1K | 12ms | 18ms | 50MB |
-| 10K | 15ms | 22ms | 140MB |
-| 100K | 21ms | 35ms | 425MB |
-| 1M | 32ms | 58ms | 3.8GB |
 
 ### Resource Optimization
 
@@ -378,12 +348,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## 📧 Contact
-
-**Project Lead:** Parichay Das
-
-**Repository:** [https://github.com/parichaydas/On-Device-AI-Framework](https://github.com/parichaydas/On-Device-AI-Framework)
 
 ## 🙏 Acknowledgments
 
